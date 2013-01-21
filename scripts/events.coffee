@@ -1,5 +1,5 @@
 # Description:
-#  
+#  Notify the Kabisa room of certain events, like lunch, beer o'clock etc
 
 cronJob = require('cron').CronJob
 KABISA_ROOM = 546101
