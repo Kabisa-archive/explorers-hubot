@@ -21,7 +21,11 @@
     "cron" : "1.0.1",
     "time" : "0.8.3",
     "coffee-script" : "1.6.1",
-    "hubot-drama-queen" : "0.0.2"
+    "hubot-drama-queen" : "0.0.2",
+    "soupselect" : "0.2.0",
+    "jsdom" : "0.5.1",
+    "wolfram" : "0.2.5",
+    "underscore" : "1.4.4"
   },
 
   "engines": {
