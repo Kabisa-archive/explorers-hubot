@@ -16,7 +16,7 @@
 
   "dependencies": {
     "hubot": ">=2.4.5",
-    "hubot-scripts": ">= 2.4.1",
+    "hubot-scripts": "2.4.1",
     "optparse": "1.0.3",
     "cron" : "1.0.1",
     "time" : "0.8.3",
@@ -25,7 +25,9 @@
     "soupselect" : "0.2.0",
     "jsdom" : "0.5.1",
     "wolfram" : "0.2.5",
-    "underscore" : "1.4.4"
+    "underscore" : "1.4.4",
+    "htmlparser" : "1.7.6",
+
   },
 
   "engines": {
