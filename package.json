@@ -26,8 +26,7 @@
     "jsdom" : "0.5.1",
     "wolfram" : "0.2.5",
     "underscore" : "1.4.4",
-    "htmlparser" : "1.7.6",
-
+    "htmlparser" : "1.7.6"
   },
 
   "engines": {
