@@ -23,6 +23,7 @@
   "nice.coffee",
   "rageface.coffee",
   "reddit-jokes.coffee",
+  "redis-brain.coffee",
   "rimshot.coffee",
   "shipit.coffee",
   "shorten.coffee",
