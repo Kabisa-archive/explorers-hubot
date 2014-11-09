@@ -26,7 +26,6 @@
   "redis-brain.coffee",
   "rimshot.coffee",
   "shipit.coffee",
-  "shorten.coffee",
   "tell.coffee",
   "url.coffee",
   "wat.coffee",
