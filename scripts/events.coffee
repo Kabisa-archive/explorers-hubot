@@ -2,7 +2,7 @@
 #  Notify the Kabisa room of certain events, like lunch, beer o'clock etc
 
 cronJob = require('cron').CronJob
-KABISA_ROOM = 546101
+KABISA_ROOM = '#general'
 
 module.exports = (robot) ->
   new cronJob '0 30 12 * * 1-5', (->
