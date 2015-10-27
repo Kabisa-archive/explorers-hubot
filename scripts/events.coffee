@@ -2,16 +2,16 @@
 #  Notify the Kabisa room of certain events, like lunch, beer o'clock etc
 #  Also used to turn on/off chatlio service
 cronJob = require('cron').CronJob
-KABISA_ROOM = '#general'
+RANDOM_ROOM = '#random'
 SUPPORT_ROOM = '#live-support'
 
 module.exports = (robot) ->
   new cronJob '0 30 12 * * 1-5', (->
-    robot.messageRoom KABISA_ROOM, 'Nom nom, lunch time!'
+    robot.messageRoom RANDOM_ROOM, 'Nom nom, lunch time!'
   ), null, true, "Europe/Amsterdam"
 
   new cronJob '0 0 16 * * 5', (->
-    robot.messageRoom KABISA_ROOM, "It's beer o'clock!"
+    robot.messageRoom RANDOM_ROOM, "It's beer o'clock!"
   ), null, true, "Europe/Amsterdam"
 
   new cronJob '0 0 9 * * 1-5', (->
